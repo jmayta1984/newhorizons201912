@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="greetings">Hello world</string>
+    <string name="courses">Courses</string>
+    <string name="exams">Exams</string>
+    <string name="freelance">Freelance</string>
+</resources>
