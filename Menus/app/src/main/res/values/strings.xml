@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="item_development">Development</string>
+    <string name="item_security">Security Essentials</string>
+    <string name="item_ux">UI/UX</string>
+    <string name="button_notification">Notification</string>
+    <string name="hint">Ingrese la URL</string>
+    <string name="button_go">Go</string>
+</resources>
