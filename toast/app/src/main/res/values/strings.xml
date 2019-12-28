@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">toast</string>
+    <string name="button_message">Save message</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="statement">Lima es la capital de Ecuador</string>
+    <string name="yes">True</string>
+    <string name="no">False</string>
+    <string name="next">Next</string>
+
+</resources>
