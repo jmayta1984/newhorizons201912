@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.prototype_country.view.*
 import pe.edu.newhorizons.recyclerview.R
 import pe.edu.newhorizons.recyclerview.models.Country
 
+// https://medium.com/@thomassimonini/recyclerview-made-easy-16bf2e261694
 
 class CountryAdapter(val countries: ArrayList<Country>, val context: Context) :
     RecyclerView.Adapter<CountryPrototype>() {
