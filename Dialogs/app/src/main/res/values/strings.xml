@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="button_save">Save</string>
+    <string name="button_download">Download</string>
+    <string name="button_date">Date</string>
+    <string name="button_snack">Snack</string>
+</resources>
