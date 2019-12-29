@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var contacts = ArrayList<Contact>()
+    lateinit var contacts: List<Contact>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,8 +32,10 @@ class MainActivity : AppCompatActivity() {
 
     fun loadContacts() {
 
-        val dbAdapter = DBAdapter(this)
-        contacts = dbAdapter.getContacts()
+        //val dbAdapter = DBAdapter(this)
+        //contacts = dbAdapter.getContacts()
+
+        contacts = AppDatabase.getInstance(this).getDao().getAllContacts()
         rvContact.adapter?.notifyDataSetChanged()
 
     }

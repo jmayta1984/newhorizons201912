@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_contact.view.*
 
-class ContactAdapter(val contacts: ArrayList<Contact>, val context: Context) :
+class ContactAdapter(val contacts: List<Contact>, val context: Context) :
     RecyclerView.Adapter<ItemContact>() {
 
     // Crea la vista

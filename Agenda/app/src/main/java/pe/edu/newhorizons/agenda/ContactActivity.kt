@@ -32,14 +32,17 @@ class ContactActivity : AppCompatActivity() {
 
     fun saveContact() {
 
-        val dbAdapter = DBAdapter(this)
-        val contact = Contact(
-            1,
-            etName.text.toString(),
-            etTelephone.text.toString()
-        )
+        //val dbAdapter = DBAdapter(this)
+        val contact = Contact(null,etName.text.toString(), etTelephone.text.toString())
 
-        dbAdapter.insertContact(contact)
+
+
+        //dbAdapter.insertContact(contact)
+
+
+        AppDatabase.getInstance(this)
+            .getDao()
+            .insertContacts(contact)
         finish()
     }
 }
